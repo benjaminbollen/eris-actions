@@ -1,7 +1,7 @@
-name = "keys list"
+name     = "keys list"
 services = [ "keys" ]
-chains = [ "" ]
-steps = [
+chain    = ""
+steps    = [
   "eris services exec keys ls /home/eris/.eris/keys",
 ]
 

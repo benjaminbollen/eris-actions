@@ -1,7 +1,7 @@
-name = "dns register"
+name     = "dns register"
 services = [ "mintx" ]
-chains = [ "" ]
-steps = [
+chain    = ""
+steps    = [
   "eris services exec mintx \"mintx name --name $addr --amt 100000 --fee 0 --sign --broadcast --data '{\\\"fqdn\\\":\\\"$addr\\\", \\\"address\\\":\\\"$ip\\\", \\\"type\\\":\\\"A\\\"}'\""
 ]
 
