@@ -2,7 +2,7 @@ name     = "keys list"
 services = [ "keys" ]
 chain    = ""
 steps    = [
-  "eris services exec keys ls /home/eris/.eris/keys",
+  "eris services exec keys ls /home/eris/.eris/keys/data",
 ]
 
 [maintainer]
